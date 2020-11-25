@@ -11,12 +11,12 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
   @override
   void initState() {
     super.initState();
-   /* Future.delayed(
+    Future.delayed(
         const Duration(seconds: 1),
         () => Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => LoginScreen()),
-            ));*/
+            ));
   }
 
   @override
